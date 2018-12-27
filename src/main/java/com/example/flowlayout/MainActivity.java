@@ -2,6 +2,7 @@ package com.example.flowlayout;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.widget.TextView;
 
 import com.nex3z.flowlayout.FlowLayout;
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < 100; i++) {
             if (i % 2 ==0){
                 list.add("itemmmmm -- >" + i);
+                Log.e("dd",list.get(i)+"");
             }else{
                 list.add("aaa");
             }
