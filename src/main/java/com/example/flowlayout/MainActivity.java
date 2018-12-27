@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
             if (i % 2 ==0){
                 list.add("itemmmmm -- >" + i);
                 Log.e("dd",list.get(i)+"");
+                Log.e("ss",list.get(i)+"");
             }else{
                 list.add("aaa");
             }
