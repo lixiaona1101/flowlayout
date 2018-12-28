@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
                 Log.e("ss",list.get(i)+"");
             }else{
                 list.add("aaa");
+                Log.e("ddd",list.get(i)+"");
             }
         }
 
